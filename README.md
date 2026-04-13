@@ -1,0 +1,2 @@
+# Yash_Morey_Django_Project
+Yash_Morey_Django_Project
