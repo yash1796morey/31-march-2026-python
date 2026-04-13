@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Page</title>
+</head>
+
+<body>
+
+    <h1>Welcome to My About Page</h1>
+    <p>This is a simple About page.</p>
+    {% comment %}
+    ye Django template comment hai
+     < {% for p in portfolio %}
+    <p>Name: {{ p.name }}</p>
+    <p>Age: {{ p.age }}</p>
+    <p>Profession: {{ p.profession }}</p>
+    <p>City: {{ p.city }}</p>
+    <hr>
+{% endcomment %}
+  
+
+
+
+
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="name" placeholder="Enter name">
+    <input type="text" name="age" placeholder="Enter age">
+    <button type="submit">Add</button>
+</form>
+
+{% for p in portfolio %}
+    <p>{{ p.name }}</p>
+    <p>{{ p.age }}</p>
+{% endfor %}
+
+
+</body>
+
+
+
+<footer>&copy:2026 yash morey</footer>
+
+</html>

@@ -1,0 +1,39 @@
+/* Body */body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: yellow;
+}
